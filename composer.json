@@ -1,6 +1,6 @@
 {
     "name": "heimrichhannot/contao-be_explanation",
-    "description":"A generic list module using formhybrid for filtering.",
+    "description":"This module offers a simple backend explanation form field (inputType).",
     "keywords":["contao", "backend", "explanation", "field", "developer"],
     "type": "contao-module",
     "homepage":"https://github.com/heimrichhannot/contao-be_explanation",
