@@ -20,7 +20,7 @@ class ExplanationField extends \Widget
 
 	public function generate()
 	{
-		return sprintf('<p style="margin-top: 15px;" id="ctrl_%s"%s>%s</p>',
+		return sprintf('<p style="margin-top: 15px; margin-bottom: 15px;" id="ctrl_%s"%s>%s</p>',
 			$this->strId, (($this->strClass != '') ? ' class="' . $this->strClass . '"' : ''),
 			$this->text
 		);

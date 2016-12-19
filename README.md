@@ -11,7 +11,7 @@ $GLOBALS['TL_DCA']['tl_*']['fields']['myExplanation'] = array
 (
     'inputType' => 'explanation',
     'eval'      => array(
-        'text'     => &$GLOBALS['TL_LANG']['tl_*']['myExplanation'],
+        'text'     => &$GLOBALS['TL_LANG']['tl_*']['myExplanation'], // this is a string, not an array
         'class'    => 'tl_info', // all contao message css classes are possible
         'tl_class' => 'long'
     )
