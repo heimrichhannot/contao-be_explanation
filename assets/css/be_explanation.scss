@@ -1,0 +1,35 @@
+.be_explanation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    .intro {
+        display: inline;
+    }
+
+    .collapse {
+        display: none;
+    }
+
+    .toggle {
+        background-repeat: no-repeat;
+        background: url(/system/modules/be_explanation/assets/img/open.png);
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        float: right;
+    }
+
+    &.open {
+        .intro {
+            display: none;
+        }
+
+        .toggle {
+            background-image: url(/system/modules/be_explanation/assets/img/close.png);
+        }
+
+        .collapse {
+            display: inline;
+        }
+    }
+}
