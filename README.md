@@ -1,3 +1,7 @@
+# This module is abandoned. Please for Contao 4 projects use
+
+https://github.com/heimrichhannot/contao-be_explanation-bundle
+
 # Backend Explanation
 
 This module offers a simple backend explanation form field (inputType).
